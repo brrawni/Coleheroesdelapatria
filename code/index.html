@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagenes/logopng.ico">
+    <script src="https://kit.fontawesome.com/70066c2f66.js" crossorigin="anonymous"></script>
+    <title>Colegio Heroes de la Patria</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <div class="navbar">
+            <img src="./imagenes/logopng.png" class="logo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#h1inicio">INICIO</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'historia')">HISTORIA</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'mapa')">MAPA</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'footer')">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <img src="./imagenes/menu.png" class="menu-icon" id="menu1" onclick="toggleMenu()">
+        </div>
+
+<!-- TITULO PRINCIPAL -->
+
+    <div class="row">
+        <div class="col">
+            <h1 class="h1dist" id="h1inicio">"CONSTRUYAMOS</h1>
+            <h1>EL COLEGIO</h1>
+            <h1 class="h1bot">QUE QUEREMOS"</h1>
+                <span class="hide" id="hideText">
+                    <p>El colegio secundario 'Héroes de la Patria' es ampliamente reconocido por su excelencia académica y compromiso con el desarrollo integral de sus estudiantes. Con un cuerpo docente comprometido en la enseñanza de los estudiantes y programas educativos innovadores e inclusivos, el colegio se destaca por brindar una educación de calidad y fomentar los valores críticos, solidarios y comprometidos con la comunidad en donde viven. Además, sus instalaciones modernas y recursos tecnológicos ofrecen un entorno propicio para el aprendizaje. En resumen, el colegio secundario 'Héroes de la Patria' es verdaderamente un lugar que eligen los jóvenes y brinda a sus estudiantes una educación pública y democrática.</p>
+                </span>
+            
+                <div class="middle">
+                    <button id="verBtn" class="btn btn1">Ver</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <div class="historia" id="historia">
+        <h1>HISTORIA</h1>
+        <img src="./imagenes/logo.jpg" class="historiaimg">
+        <p>El 23 de marzo de 1998, nuestra localidad celebró el acto inaugural de nuestro colegio. Inicialmente compartíamos edificio con la escuela nº250, donde tuvimos nuestra primera promoción de EGB 3 en 1999. Desde entonces, nos esforzamos por crecer y en abril de ese mismo año se firmó un convenio para construir nuestro actual edificio escolar. En marzo de 2000, comenzamos a disfrutar de sus instalaciones y a desarrollar nuestro sentido de pertenencia.
+
+            En 2010, se implementó el nuevo secundario, lo que nos llevó a modificar nuestro nombre. De manera participativa y democrática, elegimos el nombre de "Héroes de la Patria", con el objetivo de reconocer a aquellos que ayudan al prójimo, no solo a quienes lucharon en las guerras de nuestra patria, sino también a los ciudadanos, médicos, bomberos, maestros de frontera y muchos otros que contribuyen diariamente desde sus roles.
+            
+            Convivimos con lo viejo y lo nuevo hasta que en 2011 tuvo lugar la última promoción de la EGB, abriendo paso a nuevos desafíos. Se realizó una consulta a la comunidad educativa y el 9 de mayo de 2012 se definieron las orientaciones de Ciencias Sociales y Ciencias Naturales. Finalmente, en 2015 celebramos la primera promoción de nivel secundario de alumnos del Colegio Héroes de la Patria.</p>
+            <iframe class="iframehistoria" width="560" height="315" src="https://www.youtube.com/embed/AQN4zLzb4H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+
+        <div class="mapa" id="mapa">
+            <h1>MAPA</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13009.9432136283!2d-64.45026697308788!3d-35.39320715081801!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95db313c12c20cd5%3A0x787769f60fc65afd!2sColegio%20Secundario%20%22Heroes%20de%20la%20Patria%22!5e0!3m2!1ses!2sar!4v1684114167504!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+    
+        <footer class="piepag" id="footer">
+            <div class="grupo1">
+              <div class="box">
+                <figure>
+                  <a href="#">
+                    <img src="./imagenes/logopng.png" alt="logofoot">
+                  </a>
+                </figure>
+              </div> 
+              <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>"Soy un programador novato intentando darle la mejor onda a mi primera página".</p>
+              </div>
+              <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="redsocial">
+                  <a href="https://www.instagram.com/coleheroesdelapatria/" class="fa-brands fa-instagram" id="imglogo"><p>@coleheroesdelapatria</p></a>
+                  <a href="https://www.facebook.com/coleheroesdelapatria/" class="fa-brands fa-facebook" id="imglogo"><p>Cole Heroesdelapatria</p></a>
+                  <a href="https://www.youtube.com/@colegiosecundarioheroesdel4041" class="fa-brands fa-youtube" id="imglogo"><p>Colegio Secundario Héroes de la Patria</p></a>
+                  <a href="" class="fa-solid fa-phone" id="imglogo"><p>02335-42133007</p></a>
+                  <a href="" class="fa-solid fa-envelope" id="imglogo"><p>colegioheroesdelapatria@hotmail.com</p></a>
+                </div>
+              </div>
+             </div>
+              <div class="grupo2">
+            <small>&copy; 2023 <b>HEROES DE LA PATRIA</b> - Todos los <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">derechos reservados.<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a></a>  Por Bruno Abratte.</small>
+        </div>
+        </footer>
+
+<script src="./main.js"></script>
+</body>
+</html>
